@@ -1,0 +1,34 @@
+[     
+    { 
+
+        //userID string, traceability_code string, arg1 string, arg2 string, arg3 string, arg4 string, arg5 string
+        "invoke": "Uplink",
+ 
+        "args": ["6","tracecode3","3apple","Shanxi","2018-01-01","2018-10-01","Tom"]
+    },
+    {
+        "invoke":"RegisterUser",
+        "args" :["6","fisherman","3"]
+    },
+    {
+        "invoke":"GetUserType",
+        "args" :["2"]
+    },
+    {
+        "invoke":"GetUserInfo",
+        "args" :["2"]
+    },
+    {
+        "invoke":"GetSeafoodList",
+        "args" :["2"]
+    },
+    {
+        "invoke":"GetSeafoodInfo",
+        "args" :["tracecode3"]
+    },
+    {
+        "invoke":"GetSeafoodHistory",
+        "args" :["tracecode3"]
+    }
+
+]
